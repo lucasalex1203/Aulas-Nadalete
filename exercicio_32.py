@@ -1,2 +1,2 @@
-n=33
-print('\n', n)
+n=int(input('\nEntre com um número: '))
+print(f'\n')
