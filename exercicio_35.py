@@ -1,7 +1,0 @@
-nome=str(input('\nEntre com nome: '))
-endereço=str(input('\nEntre com endereço: '))
-telefone=str(input('\nEntre com telefone: '))
-print('')
-print(f'\nnome: {nome}')
-print(f'\nendereço: {endereço}')
-print(f'\ntelefone: {telefone}')

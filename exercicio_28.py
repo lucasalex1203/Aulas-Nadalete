@@ -1,2 +1,0 @@
-print("\n É PRECISO FAZER TODOS OS ALGORITIMOS PARA APRENDER")
-print('\n')
