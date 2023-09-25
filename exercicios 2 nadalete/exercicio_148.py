@@ -1,4 +1,3 @@
-# Função para calcular o preço da passagem
 def calcular_preco(destino, ida_e_volta):
     if destino == "Regiao Norte":
         if ida_e_volta == 1:
@@ -21,15 +20,12 @@ def calcular_preco(destino, ida_e_volta):
         else:
             return 550.00
     else:
-        return -1.0  # Opção inválida
-
-# Solicitar entrada do usuário
+        return -1.0
 print("\nDigite 1- Regiao Norte 2- Regiao Nordeste 3- Regiao Centro-Oeste 4- Regiao Sul:")
 op = int(input())
 print("\nDigite 1- Ida 2- Ida e Volta:")
 iv = int(input())
 
-# Mapear a entrada do usuário para o destino
 destinos = {
     1: "Regiao Norte",
     2: "Regiao Nordeste",
@@ -39,10 +35,8 @@ destinos = {
 
 destino_escolhido = destinos.get(op)
 
-# Calcular o preço da passagem
 preco = calcular_preco(destino_escolhido, iv)
 
-# Imprimir o resultado
 if preco == -1.0:
     print("\nOpção Inexistente")
 else:
